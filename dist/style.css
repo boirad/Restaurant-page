@@ -1,0 +1,200 @@
+/* GLOBAL */
+
+
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body {
+    height: 100vh;
+    background: url(/src/img/restaurant.jpg) center/cover no-repeat;
+    color: whitesmoke;
+}
+
+/* NAVBAR */
+
+#navBox {
+    width: 100%;
+    height: 80px;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #070606d9;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    text-align: left;
+    margin-left: 30px;
+    font-size: 50px;
+}
+
+nav {
+  margin-right: 30px;
+}
+
+ul {
+    display: inline-flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+li {
+    margin-left: 40px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+/* HOME */
+
+#homeContainer {
+    height: 100vh;
+    background-color: #2b231bbd;
+    border-top: 1px solid whitesmoke;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#homeContainer > p {
+    text-align: center;
+}
+
+#p1 {
+    margin-top: 100px;
+    font-size: 120px;
+}
+
+#p2 {
+    font-size: 120px;
+}
+
+#p4 {
+    font-size: 40px;
+    text-decoration: overline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* MENU */
+
+#menuContainer {
+    height: 100vh;
+    background-color: black;
+    border-top: 1px solid whitesmoke;
+}
+
+#titleMenu {
+    text-align: center;
+    margin: 40px;
+    font-size: 60px;
+}
+
+#menu {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+
+#breakfast > ul {
+    display: flex;
+    flex-direction: column;
+}
+
+#breakfast > ul li:hover {
+    text-decoration: none;
+    cursor: default;
+}
+
+#lunch > ul {
+    display: flex;
+    flex-direction: column;
+}
+
+#lunch > ul li:hover {
+    text-decoration: none;
+    cursor: default;
+}
+
+#dinner > ul {
+    display: flex;
+    flex-direction: column;
+}
+
+#dinner > ul li:hover {
+    text-decoration: none;
+    cursor: default;
+}
+
+/* CONTACTS */
+
+#aboutContainer {
+    height: 100vh;
+    background-color: black;
+    border-top: 1px solid whitesmoke;
+}
+
+#titleAbout {
+    text-align: center;
+    margin: 40px;
+    font-size: 60px;
+}
+
+#contacts {
+    margin: 70px auto;
+    width: 30%;
+    height: 450px;
+    background-color: #070606d9;
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+    text-align: center;
+    list-style: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+#contacts > ul {
+    list-style: none;
+}
+
+#contacts > ul:first-child {
+    margin-top: 78px;
+}
+
+#contacts > li {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 80px;
+    cursor: default;
+}
+
+
+
+#contacts > li:hover {
+    text-decoration: none;
+}
+
+/* CLASSES */
+
+.sectionTitle {
+    font-size: 50px;
+    margin: 10px;
+    text-decoration: underline;
+}
+
+.menuItem {
+    margin-top: 40px;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.underline {
+    text-decoration: underline;
+}
