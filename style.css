@@ -11,7 +11,7 @@
 
 body {
     height: 100vh;
-    background: url(/src/img/restaurant.jpg) center/cover no-repeat;
+    background: url(./img/restaurant.jpg) center/cover no-repeat;
     color: whitesmoke;
 }
 
